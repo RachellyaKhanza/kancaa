@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Profil Rachell</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--pink:#FFB6D9;--lilac:#C8A2E8;--sky:#A8D8F0;--navy:#0F1B3D;--card:#1A2850;--grad:linear-gradient(90deg,var(--pink),var(--lilac),var(--sky))}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:var(--navy);color:#fff;line-height:1.7;padding:48px 16px}
+.wrap{max-width:820px;margin:auto}
+h1,h2{font-family:'Sora',sans-serif}
+.gt{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+header{text-align:center;margin-bottom:36px}
+.foto{width:180px;margin:0 auto 22px;padding:4px;background:var(--grad);border-radius:20px}
+.foto img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:16px;background:var(--card)}
+h1{font-size:2.8rem;line-height:1.2}
+.nama{color:#d9def0;margin-bottom:18px}
+.kontak{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.kontak>*{color:#fff;text-decoration:none;font-size:.9rem;padding:6px 14px;border:1px solid var(--lilac);border-radius:20px}
+.kontak a:hover,.kontak a:focus-visible{background:var(--sky);color:var(--navy);border-color:var(--sky);outline:none}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+section{background:var(--card);padding:24px;border-radius:16px;border-top:3px solid var(--lilac)}
+section.full{grid-column:1/-1}
+h2{font-size:1.2rem;margin-bottom:12px}
+ul{list-style:none}
+li{margin-bottom:10px;font-weight:600}
+li small{display:block;font-weight:400;color:var(--sky)}
+.tag{display:inline-block;background:var(--lilac);color:var(--navy);font-size:.85rem;font-weight:600;padding:2px 12px;border-radius:12px;margin:3px 4px 3px 0}
+@media(max-width:640px){.grid{grid-template-columns:1fr}h1{font-size:2.1rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="foto"><img src="image.png/image.png" alt="Foto Rachellya Khanza Surya Putri"></div>
+    <h1 class="gt">Profil Rachell</h1>
+    <p class="nama">Rachellya Khanza Surya Putri</p>
+    <div class="kontak">
+      <a href="mailto:rachellyakhanza31@gmail.com">rachellyakhanza31@gmail.com</a>
+      <a href="https://wa.me/6281367844662">081367844662</a>
+      <a href="https://instagram.com/rachellya.khanza">@rachellya.khanza</a>
+      <span>Perumahan Divisi 2, Lampung Tengah</span>
+    </div>
+  </header>
+  <main class="grid">
+    <section class="full">
+      <h2 class="gt">Tentang Saya</h2>
+      <p>Saya Rachellya Khanza Surya Putri, siswi kelas 12 SMA Gunung Madu dengan peminatan Ekonomi, Sosiologi, dan CIT. Saya memiliki rasa ingin tahu yang besar dan tertarik pada berbagai bidang, mulai dari psikologi, administrasi publik, hingga teknik informatika. Saya senang belajar hal baru dan ingin terus berkembang di bidang yang bermanfaat bagi banyak orang.</p>
+    </section>
+    <section>
+      <h2 class="gt">Pendidikan</h2>
+      <ul>
+        <li>SMA Gunung Madu<small>2024 - sekarang</small></li>
+        <li>SMP Satya Dharma Sudjana<small>2021 - 2024</small></li>
+        <li>SDN 1 Gunung Madu<small>2015 - 2021</small></li>
+      </ul>
+    </section>
+    <section>
+      <h2 class="gt">Keahlian</h2>
+      <span class="tag">Dasar Python</span>
+      <span class="tag">Berani berbicara di depan umum</span>
+      <span class="tag">Komunikasi yang terus berkembang</span>
+    </section>
+    <section>
+      <h2 class="gt">Pengalaman</h2>
+      <ul>
+        <li>Peserta OSN Informatika<small>Tingkat Kabupaten, 2026</small></li>
+      </ul>
+    </section>
+    <section>
+      <h2 class="gt">Hobi</h2>
+      <span class="tag">Membaca novel</span>
+      <span class="tag">Menonton</span>
+    </section>
+  </main>
+</div>
+</body>
+</html>
